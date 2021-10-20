@@ -1,0 +1,62 @@
+page {
+	width: 750upx;
+	height: 250vh;
+	background-color: #f5f6f7;
+}
+.news-body {
+	width: 93vw;
+	margin: 40upx auto;
+	background: #ffffff;
+}
+.news-content-header {
+	padding: 60upx 40upx 0upx 40upx;
+}
+.news-content-header h1 {
+	margin: 0 auto;
+	font-size: 56upx;
+	color: #262626;
+	font-weight: 600;
+	text-align: center;
+	line-height: 76upx;
+}
+.news-content-header .news-date {
+	margin-top: 40upx;
+	text-align: center;
+	font-size: 28upx;
+	color: #ababab;
+}
+.news-content-header .news-date span {
+	vertical-align: middle;
+}
+.news-content-header .about-line {
+	margin: 40upx 0upx;
+	width: 100%;
+	height: 1upx;
+	background: #e5e8ed;
+}
+.news-content-detail {
+	width: 100%;
+	height: 100%;
+	padding: 0upx 40upx 100upx 40upx;
+	text-align: center;
+}
+.news-content-detail p {
+	font-size: 36upx;
+	color: #262626;
+	line-height: 76upx;
+	margin-bottom: 40upx;
+	text-indent: 2em;
+	text-align: left;
+}
+
+.news-content-detail .notice-bottom {
+	float: right;
+	text-align: right;
+	margin-top: 60upx;
+}
+
+.news-content-detail .notice-bottom span {
+	display: block;
+	font-size: 32upx;
+	margin-bottom: 20upx;
+}

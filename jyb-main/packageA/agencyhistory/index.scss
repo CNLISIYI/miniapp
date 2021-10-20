@@ -1,0 +1,204 @@
+page {
+	width: 750upx;
+	height: 100%;
+	background-color: #fafbfc;
+}
+.history-null {
+	width: 750upx;
+	padding: 100upx;
+	@include fs(32upx);
+	color: #262626;
+	text-align: center;
+}
+.angency-history {
+	width: 750upx;
+	padding: 0upx 0upx 190upx 30upx;
+}
+.list-dl {
+	@include mt(40upx);
+}
+.list-dd{
+	position: relative;
+}
+.check-button {
+	position: absolute;
+	top: 90upx;
+	left: 0;
+}
+.check-button image {
+	width: 40upx;
+	height: 40upx;
+}
+.m-list-item {
+	height: 184upx;
+	width: 690upx;
+	padding: 28upx 20upx;
+	display: block;
+	@include mt(20upx);
+	@include mr(30upx);
+	@include bgc(#fff);
+	@include bdr(8upx);
+}
+.m-editlist-item {
+	height: 184upx;
+	width: 690upx;
+	padding: 28upx 20upx;
+	display: inline-block;
+	@include mt(20upx);
+	@include bgc(#fff);
+	@include bdr(8upx);
+	transform: translateX(60upx);
+}
+.list-date {
+	position: relative;
+}
+.list-date .check-button {
+	position: absolute;
+	top: 4rpx;
+	left: 0;
+}
+.list-date text{
+	font-family: Arial-BoldMT;
+	@include fs(34upx);
+	color: #262626;
+	@include fw(600);
+	letter-spacing: 0;
+	@include lh(40upx);
+}
+.m-editlist-text {
+	display: inline-block;
+	transform: translateX(60upx);
+}
+.m-item-info {
+	align-items: flex-start;
+}
+.m-item-logo {
+	width: 104upx;
+	height: 104upx;
+	overflow: hidden;
+	border: 2upx solid $line-1;
+	@include bdr(50%);
+	@include mr(20upx);
+}
+.m-item-logo ._img {
+	width: 104upx;
+	max-height: 104upx;
+}
+.m-item-title {
+	display: block;
+	color: $black-8;
+	@include fs(30upx);
+	@include lh(32upx);
+	@include fw();
+	@include mb(20upx);
+}
+.m-item-msg-score {
+	color: $red-6;
+	@include fw(400);
+	@include ml(8upx);
+	@include fs(24upx);
+}
+.item-views {
+	float: right;
+	color: #8c8c8c;
+	font-weight: normal;
+	@include fs(24upx);
+}
+.m-item-feature ._li {
+	height: 36upx;
+	float: left;
+	color: $black-8;
+	@include border-1px($line-2, all, 8upx);
+	@include pl(8upx);
+	@include pr(8upx);
+	@include lh(36upx);
+	@include fs(20upx);
+	@include mr(8upx);
+	@include mb(12upx);
+	@include fw(lighter);
+}
+.list-bottom {
+	position: fixed;
+	width: 754upx;
+	height: 100upx;
+	bottom: 0upx;
+	left: -1rpx;
+	@include bgc(#fff);
+	z-index: 99999;
+}
+.list-edit {
+	line-height: 100upx;
+	text-align: center;
+	color: #262626;
+	@include fs(30upx);
+}
+.select-all {
+	float: left;
+	line-height: 108upx;
+	color: #262626;
+	padding-left: 30upx;
+	@include fs(26upx);
+}
+.select-all image {
+	width: 40upx;
+	height: 40upx;
+	@include mr(16upx);
+	transform: translateY(25%);
+}
+.list-delete {
+	float: right;
+	width: 340upx;
+	line-height: 100upx;
+	text-align: center;
+	@include bgc(#fe1940);
+	color: #fff;
+	@include fs(34upx);
+}
+
+.select-all text {
+	line-height: 100upx;
+}
+
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+	.list-bottom {
+		height: 168upx;
+		padding-bottom: 68upx;
+	}
+}
+@media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
+	.list-bottom {
+		height: 168upx;
+		padding-bottom: 68upx;
+	}
+}
+
+@media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) {
+	.list-bottom {
+		height: 168upx;
+		padding-bottom: 68upx;
+	}
+}
+.history-null image{
+	width: 388upx;
+	height: 306upx;
+	margin: 136upx auto 0upx;
+}
+.history-null text {
+	display: block;
+	font-size: 26upx;
+	color: #8C8C8C;
+	letter-spacing: 0;
+	text-align: center;
+	line-height: 28upx;
+}
+.history-null .back-to-home {
+	width: 238upx;
+	height: 80upx;
+	margin: 94upx auto;
+	border: 1px solid #1A8CFF;
+	border-radius: 8upx;
+	font-size: 30upx;
+	color: #1A8CFF;
+	text-align: center;
+	line-height: 80upx;
+}

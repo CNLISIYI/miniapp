@@ -1,0 +1,131 @@
+.jyb-btn { height: 40px; padding: 0 25px; display: inline-block; font-size: 14px; font-weight: 500; line-height: 38px; cursor: pointer; -webkit-transition: .1s; -webkit-transition: .1s; -moz-transition: .1s; -moz-transition: .1s; transition: .1s; text-align: center; white-space: nowrap; color: #595959; border: 1px solid #d9d9da; border-color: #d9d9da; -moz-border-radius: 2px; border-radius: 2px; background: #fff; }
+.jyb-btn-blue { color: #fff; border-color: #1a8cff; background-color: #1a8cff; }
+
+.m-fee-top { height: 50px; padding: 10px 13px 10px 19px; line-height: 30px; border-bottom: .5px solid #e6e6e6; }
+.m-fee-top p { font-size: 13px; color: #595959; }
+.m-fee-top .jyb-btn { width: 83px; height: 30px; padding: 0; font-size: 13px; line-height: 28px; -moz-border-radius: 15px; border-radius: 15px; }
+.m-fee-container { padding-top: 16px; }
+.m-fee-container > h1 { height: 30px; padding: 0 16px; font-size: 22px; line-height: 30px; color: #262626; }
+.m-fee-container > p { height: 18px; margin-top: 10px; padding: 0 16px; font-size: 12px; line-height: 18px; color: #8c8c8c; }
+.m-fee-img, .m-fee-img img { width: 750upx; height: 1040upx; }
+.m-fee-mask { width: 100%; height: 100%; position: fixed; z-index: 200; top: 0; left: 0; background: rgba(0, 0, 0, .5); }
+// height: 194px; 
+.m-fee-form { width: 77%; height: 194px; margin: auto; position: fixed; z-index: 201; top: -100upx; right: 0; bottom: 0; left: 0; -moz-border-radius: 12px; border-radius: 12px; background: #f8f8f8; }
+.m-fee-form p { padding: 24px 0; font-size: 17px; font-weight: 600; line-height: 22px; text-align: center; letter-spacing: -.41px; color: #000; }
+.m-fee-form > div { line-height: 43px; border: 0; }
+.m-fee-form  a { font-size: 17px; font-weight: 600; text-align: center; letter-spacing: -.41px; color: #1a8cff; }
+.m-fee-form  .m-fee-form-cancel-btn { font-weight: normal; }
+.m-fee-form  a + a { border-left: 1px solid #d9d9da; }
+.m-fee-bar-box { margin-top: 24px; padding: 0 16px; }
+.m-fee-bar-box ul { max-height: 220px; overflow: hidden; }
+.m-fee-bar-box li { display: block; }
+.m-fee-bar-box li + li { margin-top: 20px; }
+.m-fee-bar-box p { width: calc(100vw - 32px); min-width: 120px; height: 17px; font-size: 12px; line-height: 17px; letter-spacing: 0; }
+.m-fee-bar-box p em { max-width: 50%; color: #595959; }
+.m-fee-bar-box p span { color: #8c8c8c;float: left; margin-left: 13px; }
+.m-fee-bar-outer { width: 100%; height: 6px; margin-top: 5px; position: relative; -moz-border-radius: 3px; border-radius: 3px; background: #ff5770; }
+.m-fee-bar-inner { height: 6px; position: absolute; top: 0; left: 0; -moz-border-radius: 3px; border-radius: 3px; background-image: -webkit-linear-gradient(221deg, #ffd3d8 0%, #ffa8b0 68%); background-image: -moz-linear-gradient(221deg, #ffd3d8 0%, #ffa8b0 68%); background-image: linear-gradient(-131deg, #ffd3d8 0%, #ffa8b0 68%); }
+.m-fee-bar-watch-more { height: 96px; margin-top: -48px; padding: 71px 0 5px; position: relative; text-align: center; background-image: -webkit-gradient(linear, left top, left bottom, color-stop(2%, rgba(255, 255, 255, .00)), color-stop(57%, #fff)); background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, .00) 2%, #fff 57%); background-image: -moz-linear-gradient(top, rgba(255, 255, 255, .00) 2%, #fff 57%); background-image: linear-gradient(-180deg, rgba(255, 255, 255, .00) 2%, #fff 57%); }
+.m-fee-bar-watch-more a { font-size: 14px; line-height: 20px; color: #1a8cff; }
+.m-fee-bar-sign { margin-top: 20px; }
+.m-fee-bar-sign p { height: 12px; line-height: 12px; }
+.m-fee-bar-sign em { width: 12px; height: 6px; -moz-border-radius: 3px; border-radius: 3px; background: #ffa8b0; }
+.m-fee-bar-sign span { margin-left: 5px; font-size: 12px; line-height: 12px; letter-spacing: 0; color: #ababab; }
+.m-fee-bar-aver { margin-left: 16px; -webkit-box-pack: start; -moz-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; }
+.m-fee-bar-aver em { background: #ff5770; }
+.m-fee-bar-lower { -webkit-box-pack: end; -moz-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; }
+.m-fee-list { padding-left: 16px; }
+.m-fee-item-header { width: 42px; height: 42px; -moz-border-radius: 50%; border-radius: 50%; }
+// margin-left: 10px;
+.m-fee-item-msg { padding: 17px 16px 16px 0; border-bottom: .5px solid #eee; }
+.m-fee-item-msg > div { height: 21px; line-height: 21px; }
+.m-fee-item-msg > div em { font-size: 15px; color: #595959; }
+.m-fee-item-msg > div span { color: #fe1940; font-size: 16px; display: inline-block; }
+.m-fee-item-msg > p { height: 18px; margin-top: 2px; font-size: 13px; line-height: 18px; color: #8c8c8c; }
+.m-fee-item-msg > p span { margin-left: 10px; }
+.m-fee-watch-more { height: 61px; padding: 16px 0 25px; line-height: 20px; text-align: center; background: #f5f6f7; }
+.m-fee-watch-more a { font-size: 14px; color: #1a8cff; }
+.m-fee-watch-more img { width: 11px; margin-left: 2px; display: inline-block; }
+
+.m-fixed-form-inner{
+	padding: 0 24px;
+	.jyb-form {
+		width: 100%;
+		height: auto;
+		position: relative;
+		float: left;
+	}
+	.jyb-input {
+		width: 100%;
+		height: 26px;
+		padding: 0 10px;
+		font-size: 14px;
+		line-height: 14px;
+		color: #262626;
+		border: solid 1px #d9d9da;
+		-moz-border-radius: 4px;
+		border-radius: 4px;
+		background: #fff;
+	}
+	.jyb-form-group{
+		height: 26px;
+		& + .jyb-form-group {
+			margin-top: 8px;
+		}
+	} 
+	.jyb-btn {
+		width: 84px;
+		height: 26px;
+		font-size: 14px;
+		font-style: italic;
+		line-height: 24px;
+	    padding: 0;
+	    font-weight: normal;
+	    text-align: center;
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		border: solid 1px #d9d9da;
+		border-left: 0;
+	    color: #1a8cff;
+	    -moz-border-radius: 0 4px 4px 0;
+	    border-radius: 0 4px 4px 0;
+		&:before {
+			height: 18px;
+			margin-top: -9px;
+		    width: 1px;
+		    position: absolute;
+		    z-index: 10;
+		    top: 50%;
+		    left: 0;
+		    display: block;
+		    content: '';
+		    background: #d9d9d9;
+		}
+		background-color: #ccc;
+	}
+	.jyb-code-input{
+		width: calc(100% - 84px);
+		border-right: 0;
+		-moz-border-radius: 4px 0 0 4px;
+		border-radius: 4px 0 0 4px;
+	}
+}
+.m-fee-form .m-fee-form-btns{
+	border-top: .5px solid #d9d9da;
+}
+.m-fixed-form-inner .jyb-btn{
+	height: 26px;
+	@include lh(27px);
+}
+.m-fixed-form-inner .jyb-btn.SMS-code-btn{
+	@include bgc(#fff);
+	font-style: normal;
+	&.count-down{
+		color: $black-6;
+	}
+}
+.mobile-code-btn image{ 
+	width: 100%;
+	height: 100%;
+}

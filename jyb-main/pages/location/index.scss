@@ -1,0 +1,112 @@
+.m-select-location .m-common-main {
+	width: 100%;
+	padding: 0;
+}
+._a {
+	@include fs(28upx);
+	@include lh(40upx);
+}
+.icon_bottom_no_bg {
+	width: 10px;
+	height: 10px;
+	margin-left: 3px;
+}
+.m-header-location-name {
+	font-size: 14px;
+	color: #262626;
+	max-width: 112upx;
+}
+.m-location-current,
+.m-location-more {
+	padding: 5px 4vw 15px;
+}
+.m-location-subtitle {
+	width: 332rpx;
+	margin-top: 15px;
+	display: inline-block;
+	font-size: 13px;
+	line-height: 15px;
+	letter-spacing: 0;
+	color: #ababab;
+}
+.m-location-subtitle:first-child {
+	margin-right: 10px;
+}
+.m-location-cur-inner {
+	margin-top: 15px;
+}
+.m-location-cur-position {
+	font-size: 16px;
+	line-height: 20px;
+	letter-spacing: 0;
+	color: #262626;
+}
+.m-location-cur-reset {
+	margin-left: 20px;
+}
+.m-location-cur-reset .icon_distance_block {
+	width: 16px;
+	height: 16px;
+	background-color: #1a8cff;
+}
+.m-location-cur-reset span {
+	margin-left: 2px;
+	font-size: 13px;
+	line-height: 20px;
+	letter-spacing: 0;
+	color: #1a8cff;
+}
+.m-location-more {
+	padding-bottom: 0;
+	border-top: 3px solid #f7f8f9;
+}
+.m-location-area {
+	width: 96vw;
+	margin-top: 15px;
+	position: relative;
+}
+.m-location-area:before {
+	width: 92vw;
+	height: 1px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	content: '';
+	background-color: #eee;
+}
+.m-location-area li {
+	margin-right: 20px;
+	margin-bottom: 12px;
+	float: left;
+}
+.m-location-area li a {
+	font-size: 15px;
+	line-height: 20px;
+	letter-spacing: 0;
+	color: #262626;
+}
+.m-location-area .active a {
+	color: #1a8cff!important;
+}
+.m-location-place {
+	width: 96vw;
+	margin-top: 20px;
+}
+.m-location-place li {
+	margin-right: 20px;
+	margin-bottom: 13px;
+	float: left;
+}
+.m-location-place li a {
+	font-size: 14px;
+	line-height: 18px;
+	letter-spacing: 0;
+	color: #595959;
+}
+.m-location-area .keyon a{
+	color: #1a8cff !important;
+}
+
+.m-location-place .keyon a{
+	color: #1a8cff !important;
+}

@@ -1,0 +1,26 @@
+.m-knowledge-detail { padding: 16px 0 24px 16px; }
+.m-knowledge-detail-top { margin-right: 12px; padding-bottom: 16px; border-bottom: .5px solid #e6e6e6; }
+.m-knowledge-detail-top h1 { font-size: 24px; font-weight: 600; line-height: 32px; color: #262626; }
+
+.m-knowledge-detail-container { padding-right: 16px; }
+.m-knowledge-detail-container ._p { margin-top: 16px; font-size: 15px; line-height: 26px; text-align: justify; color: #262626; }
+.m-knowledge-detail-container ._img { width: 100%; height: auto; margin-top: 20px; }
+
+.m-knowledge-download {margin-right: 32upx;}
+.m-knowledge-download img { max-width:100%; }
+.m-knowledge-download h3 { height: 44upx; margin-top: 48upx; font-size: 36upx; font-weight: 600; line-height: 44upx; text-align: justify; color: #262626; }
+.m-knowledge-download table { width: 100%; margin-top: 32upx; border-spacing: 0; border-collapse: collapse; text-align: left; border-left: .5px solid #e1e1e1; }
+.m-knowledge-download thead { background: #f5f5f6; border-top: .5px solid #e1e1e1;}
+.m-knowledge-download th, .m-knowledge-download td { padding: 14upx 32upx 22upx; font-size: 28upx; font-weight: normal; line-height: 40upx; text-align: justify; color: #262626; border-right: .5px solid #e1e1e1; border-bottom: .5px solid #e1e1e1; }
+.m-knowledge-download th { color: #595959 !important; display: inline-block;}
+.set-width { width: 182upx; }
+.m-knowledge-download tr th:first-child {width: 502upx; border-right: 0;}
+.m-knowledge-download tr td:first-child {width: 502upx; float: left;}
+.m-knowledge-download tr td:nth-child(2) {display: inline-block; width: 182upx;}
+.m-knowledge-download .jyb-btn { width: 100%; height: 100upx; margin-top: 32upx; font-size: 32upx; line-height: 96upx; color: #fff; background-color: #1a8cff; -moz-border-radius: 8upx; border-radius: 8upx; }
+.m-knowledge-download .jyb-btn img { width: 36upx; height: 36upx; margin-right: 16upx; position: relative; top: 4upx; display: inline-block; }
+
+
+
+// .m-knowledge-detail-data { padding: 23px 16px; }
+// .m-knowledge-detail-data .m-news-data-container { margin-top: 16px; }

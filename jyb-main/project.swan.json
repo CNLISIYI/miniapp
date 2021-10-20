@@ -1,0 +1,28 @@
+{
+    "editor": {
+        "curPath": "D:\\work\\jyb-svn-FE前端资源\\uni-app\\jiaoyubao\\pages.json",
+        "expands": [
+            "D:\\work\\jyb-svn-FE前端资源\\uni-app\\jiaoyubao\\unpackage",
+            "D:\\work\\jyb-svn-FE前端资源\\uni-app\\jiaoyubao\\unpackage\\dist"
+        ],
+        "markdownUploadTimeMap": {},
+        "paths": [
+            "D:\\work\\jyb-svn-FE前端资源\\uni-app\\jiaoyubao\\pages.json"
+        ],
+        "recentlyFiles": [
+            "D:\\work\\jyb-svn-FE前端资源\\uni-app\\jiaoyubao\\pages.json"
+        ]
+    },
+    "host": "baiduboxapp",
+    "setting": {
+        "urlCheck": true
+    },
+    "swan": {
+        "baiduboxapp": {
+            "swanJsVersion": "3.150.255-rc",
+            "extensionJsVersion": "1.10.4"
+        }
+    },
+    "appid": "14608667",
+    "projectname": "jiaoyubao"
+}

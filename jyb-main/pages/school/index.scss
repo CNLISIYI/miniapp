@@ -1,0 +1,14 @@
+.m-school .m-school-list{
+	@include mt(0);
+	@include ml(16px);
+}
+.school-sort-box{
+	// border-bottom: .5px solid #eee;
+	@include border-1px(#eee, bottom);
+}
+.map-box {
+	position: relative;
+}
+.m-map-error {position: absolute;top:40upx;right:30upx; text-align: center; display: inline-block;padding: 16upx 18upx 6upx;background: #1A8CFF;border-radius: 8upx;z-index: 995;}
+.m-map-error ._img { margin: 0 auto; width: 30upx; height: 30upx;line-height: 1;font-size: 0;}
+.m-map-error span {color: #ffffff; font-size: 22upx; line-height: 32upx; margin-top: 4upx;}

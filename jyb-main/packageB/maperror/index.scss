@@ -1,0 +1,231 @@
+.bg-gray {
+	width: 100vw;
+	height: 20upx;
+	background: #f5f6f7;
+}
+.m-error-top {
+	padding: 0upx 30upx;
+}
+.error-title {
+	font-size: 32upx;
+	color: #262626;
+	line-height: 36upx;
+	vertical-align: middle;
+}
+.error-input input {
+	font-size: 32upx;
+	color: #262626;
+	line-height: 36upx;
+	margin-left: 50upx;
+	display: inline-block;
+	vertical-align: middle;
+}
+.error-school {
+	border-bottom: 1px solid #e8e8e8;
+}
+.error-school input {
+	font-weight: 600;
+}
+.error-input {
+	width: 100%;
+	height: 108upx;
+	padding: 36upx 0upx;
+	line-height: 1;
+	font-size: 0;
+}
+.error-type {
+	padding: 36upx 0upx 20upx;
+	font-size: 0;
+}
+.error-type .error-title {
+	display: block;
+	margin-bottom: 30upx;
+}
+.error-type p {
+	width: calc((100% - 30upx) / 2);
+	display: inline-block;
+	text-align: center;
+	line-height: 40upx;
+	height: 80upx;
+	padding: 20upx 0upx;
+	font-size: 28upx;
+	border-radius: 8upx;
+	border: 1px solid #bbbbbb;
+	margin-bottom: 20upx;
+	color: #666666;
+	cursor: pointer;
+	-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+.error-type .mr15 {
+	margin-right: 30upx;
+}
+.error-type .on {
+	background: #e8f3ff;
+	border: 1px solid #1a8cff;
+	color: #1a8cff;
+}
+.error-phone {
+	border-top: 1px solid #e8e8e8;
+}
+.error-phone input {
+	color: #262626;
+}
+.error-phone input::placeholder {
+	color: #ababab;
+}
+.m-error-bottom {
+	padding: 46upx 30upx 120upx;
+	font-size: 0;
+}
+.m-error-bottom textarea {
+	padding: 20upx;
+	background: #fafbfc;
+	border-radius: 8upx;
+	width: 650upx;
+	height: 280upx;
+	font-size: 30upx;
+	line-height: 48upx;
+	color: #262626;
+	margin-bottom: 40upx;
+
+}
+.m-error-bottom textarea::placeholder {
+	color: #ababab;
+}
+.error-uploader {
+	margin-top: 40upx;
+	padding-bottom: 80upx;
+}
+
+.m-error-btn {
+	width: 100%;
+	height: 88upx;
+	background: #1a8cff;
+	border-radius: 8upx !important;
+	font-size: 34upx;
+	color: #ffffff;
+	margin-top: 80upx;
+	line-height: 88upx;
+}
+.weui-uploader__input-box:after,
+.weui-uploader__input-box:before {
+	background-color: transparent;
+	width: 0upx;
+	height: 0upx;
+}
+.error-success {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #ffffff;
+	z-index: 999;
+	height: 100%;
+	text-align: center;
+	padding-top: 160upx;
+}
+.error-success .icon-check-block {
+	width: 180upx;
+	height: 180upx;
+	display: inline-block;
+	-webkit-mask: url(https://static.jiaoyubao.cn/images/common/icon-check-block.svg) no-repeat;
+	mask: url(https://static.jiaoyubao.cn/images/common/icon-check-block.svg) no-repeat;
+	background-color: #1a8cff;
+	-webkit-mask-size: 100% 100%;
+	mask-size: 100% 100%;
+}
+.error-success h4 {
+	font-size: 40upx;
+	color: #000000;
+	line-height: 56upx;
+	font-weight: 600;
+	margin-top: 40upx;
+}
+.error-success p {
+	display: inline-block;
+	width: calc(100% - 218upx);
+	margin: 30upx auto 120upx;
+	font-size: 28upx;
+	color: #8c8c8c;
+	line-height: 40upx;
+}
+.error-success a {
+	display: inline-block;
+	color: #ffffff;
+	font-size: 34upx;
+	line-height: 88upx;
+	width: calc(100% - 60upx);
+	margin: 0 auto;
+	height: 88upx;
+	background: #1a8cff;
+	border-radius: 8upx;
+}
+.photo-item {
+	position: relative;
+	display: inline-block;
+	width: 156upx;
+	height: 156upx;
+	margin: 0 20upx 20upx 0;
+	border-radius: 8upx;
+	vertical-align: top;
+	overflow: hidden;
+}
+.photo-item image {
+	width: 100%;
+	height: 100%;
+}
+.photo-item video {
+	width: 100%;
+	height: 100%;
+}
+.photo-item .close {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 36upx;
+	height: 36upx;
+	background-color: rgba($color: #262626, $alpha: 0.5);
+	border-radius: 4upx;
+}
+.photo-item .open {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 60upx;
+	height: 60upx;
+	transform: translate(-50%,-50%);
+}
+.photo-item .open image {
+	width: 100%;
+	height: 100%;
+}
+.photo-item .icon-cross-no-bg {
+	@include icon-mask(icon-cross-no-bg);
+	display: block;
+	margin: auto;
+	width: 32upx;
+	height: 32upx;
+	background-color: #FFFFFF;
+}
+.upload-item {
+	display: inline-block;
+	width: 156upx;
+	height: 156upx;
+	background: #FAFBFC;
+	padding: 24upx;
+	margin: 0 20upx 20upx 0;
+	border: 1px dashed #D9D9DA;
+	border-radius: 8upx;
+	vertical-align: top;
+}
+.upload-item image {
+	width: 72upx;
+	height: 72upx;
+	margin: 0 auto;
+}
+.upload-item span {
+	font-size: 24upx;
+	color: #ababab;
+	margin-top: 2upx;
+	line-height: 34upx;
+}

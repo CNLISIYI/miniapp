@@ -1,0 +1,51 @@
+page {
+  background: #fff; }
+
+.m-page-content {
+  background: #fff; }
+
+.icon-result {
+  width: 152upx;
+  margin: 192upx auto 64upx; }
+  .icon-result text {
+    display: block;
+    width: 152upx;
+    height: 152upx;
+    margin-bottom: 16upx; }
+  .icon-result .success {
+    background-image: linear-gradient(270deg, #FF6100 0%, #FE8D00 100%); }
+  .icon-result .error {
+    background: #FE5467; }
+  .icon-result span {
+    display: block;
+    width: 72upx;
+    height: 12upx;
+    background: #EBEBEB;
+    margin: 0 auto;
+    border-radius: 50%; }
+
+.pay-det {
+  width: 464upx;
+  margin: 0 auto; }
+  .pay-det span {
+    display: block;
+    font-size: 40upx;
+    color: #262626;
+    margin-bottom: 32upx;
+    text-align: center;
+    font-weight: 600; }
+  .pay-det p {
+    font-size: 30upx;
+    color: #8C8C8C;
+    text-align: center;
+    line-height: 42upx;
+    margin-bottom: 80upx; }
+  .pay-det > div, .pay-det > navigator {
+    width: 464upx;
+    height: 88upx;
+    background-image: linear-gradient(270deg, #FF6100 0%, #FE8D00 100%);
+    border-radius: 44upx;
+    font-size: 32upx;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 88upx; }

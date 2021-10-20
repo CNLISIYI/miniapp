@@ -1,0 +1,112 @@
+/* feedback */
+page {
+	width: 750upx;
+	height: 100%;
+	background-color: #fafbfc;
+}
+
+.m-feedback-container {
+	background-color: #fafbfc;
+}
+
+.m-feedback-container .m-common-main {
+	padding: 0upx;
+	width: 750upx;
+	overflow: hidden;
+}
+
+.m-feedback-textarea {
+	width: 750upx;
+	height: 280upx;
+	padding: 40upx 30upx;
+	letter-spacing: 0;
+}
+
+.m-feedback-input {
+	width: 750upx;
+	height: 104upx;
+	margin-top: 33upx;
+	padding: 28upx 30upx;
+}
+
+.m-feedback-textarea,
+.m-feedback-input {
+	float: left;
+	font-size: 30upx;
+	color: #262626;
+	background-color: #fff;
+}
+
+.m-feedback-textarea {
+	line-height: 44upx;
+}
+
+.m-feedback-input {
+	line-height: 28upx;
+}
+
+.m-feedback-btn {
+	margin: 40upx 28upx;
+	float: left;
+	font-weight: normal;
+	border-radius: 44upx;
+}
+
+.m-feedback-success {
+	width: 750upx;
+	height: 100%;
+	padding: 96upx 30upx 0upx;
+	position: fixed;
+	z-index: 9999;
+	top: 0;
+	right: auto;
+	bottom: auto;
+	left: 0;
+	background-color: #fff;
+	-webkit-box-pack: start;
+	-ms-flex-pack: start;
+	-moz-box-pack: start;
+	justify-content: flex-start;
+}
+
+.m-feedback-success .icon_check_block {
+	width: 180upx;
+	height: 180upx;
+	background-color: #1a8cff;
+}
+
+.m-feedback-success .m-jyb-btn-large {
+	font-weight: normal;
+	border-radius: 44upx;
+}
+
+.feedback-success-title {
+	font-size: 40upx;
+	color: #000;
+}
+
+.feedback-success-tips {
+	width: 588upx;
+	margin: 30upx auto;
+	font-size: 28upx;
+	line-height: 42upx;
+	color: #8c8c8c;
+	text-align: center;
+}
+.apply-error {
+	position: absolute;
+	width: 400upx;
+	height: 88upx;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #000000;
+	line-height: 88upx;
+	text-align: center;
+	border-radius: 8upx;
+	opacity: 0.6;
+}
+.apply-error span {
+	font-size: 28upx;
+	color: #ffffff;
+}

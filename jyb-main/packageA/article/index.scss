@@ -1,0 +1,13 @@
+.m-info-detail-container { padding: 16px 16px 30px; }
+.m-info-detail-container h1 { font-size: 24px; font-weight: 600; line-height: 32px; color: #262626; }
+.m-info-detail-msg { height: 20px; margin-top: 14px; font-size: 12px; line-height: 20px; text-align: left; color: #8c8c8c; }
+.m-info-detail-msg span + span { margin-left: 16px; }
+.m-info-detail-summary img { width: 25px; height: 25px; position: relative; top: -3px; }
+.m-info-detail-summary p { width: -moz-calc(100% - 31px); width: calc(100% - 31px); margin-left: 6px; font-size: 15px; line-height: 26px; color: #8c8c8c; }
+.m-info-detail-article p { margin-top: 20px; font-size: 16px; line-height: 29px; text-align: justify; color: #262626; }
+.m-info-detail-article img { width: 100%; height: auto; margin-top: 20px; }
+.m-info-detail-tj .m-module-title { height: 49px; padding: 23px 0 2px 16px; }
+
+.m-class {
+    padding: 23px 16px 24px 15px;
+}

@@ -1,0 +1,26 @@
+/*list*/
+.m-list-container.m-class { padding: 0 16px 20px; }
+.m-list-container .m-class-list li:first-child { margin-top: 0; }
+.m-class-intro { height: 78px; position: relative; }
+.m-class-intro div { width: 100%; position: absolute; bottom: 3px; left: 0; }
+.m-list-container-item .m-module-title { margin-bottom: 13px; }
+.m-list-container .m-list-container-item + .m-list-container-item { margin-top: 19px; }
+
+
+
+.m-module-title { height: 24px; display: block; font-size: 18px !important; font-weight: 600; line-height: 24px; color: #262626;}
+.m-module-more { width: 15px; height: 15px; margin-top: 4px; }
+
+.m-class { padding: 23px 16px 24px 15px; }
+.m-class-list a { width: 100%; }
+.m-class-list li { margin-top: 24px; }
+.m-class-list li:first-child { margin-top: 17px; }
+.m-class-img { width: 130px; height: 78px; position: relative; }
+.m-class-img img { width: 100%; height: 100%; -moz-border-radius: 4px; border-radius: 4px; }
+.m-class-img  .m-class-tuijian-sign { width: 39px; height: 20px; position: absolute; top: 0; left: 0; -moz-border-radius: 0; border-radius: 0; }
+.m-class-intro { margin-left: 10px; }
+.m-class-intro h3 { width: -moz-calc(100vw - 172px); width: calc(100vw - 172px); height: 22px; font-size: 17px; line-height: 22px; color: #262626; }
+.m-class-intro p { width: -moz-calc(100vw - 172px); width: calc(100vw - 172px); height: 17px; margin-top: 3px; font-size: 12px; line-height: 17px; color: #8c8c8c; }
+.m-class-intro div { height: 20px; margin-top: 16px; font-size: 12px; line-height: 20px; color: #8c8c8c; -webkit-box-pack: left; -moz-box-pack: left; -ms-flex-pack: left; justify-content: left; }
+.m-class-intro em { font-family: arial; font-size: 14px; color: #fe1940; }
+.m-class-intro i { width: 26px; height: 14px; margin-left: 4px; display: inline-block; font-size: 11px; font-weight: lighter;line-height: 13.5px; text-align: center; color: #fe1940; border: .5px solid #fe1940; -moz-border-radius: 2px; border-radius: 2px; }

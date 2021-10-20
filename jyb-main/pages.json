@@ -1,0 +1,444 @@
+{
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "教育宝"
+			}
+		},
+		{
+			"path": "pages/agencylist/index",
+			"style": {
+				"navigationBarTitleText": "机构列表"
+			}
+		},
+		{
+			"path": "pages/agencyindex/index",
+			"style": {
+				"navigationBarTitleText": "机构主页"
+			}
+		},
+		{
+			"path": "pages/class/index",
+			"style": {
+				"navigationBarTitleText": "课程"
+			}
+		},
+
+		{
+			"path": "pages/teacher/index",
+			"style": {
+				"navigationBarTitleText": "教师"
+			}
+		},
+		{
+			"path": "pages/school/index",
+			"style": {
+				"navigationBarTitleText": "校区"
+			}
+		},
+		{
+			"path": "pages/photo/index",
+			"style": {
+				"navigationBarTitleText": "相册"
+			}
+		},
+		{
+			"path": "pages/ping/index",
+			"style": {
+				"navigationBarTitleText": "点评奖金"
+			}
+		}, {
+			"path": "pages/pingstep1/index",
+			"style": {
+				"navigationBarTitleText": "点评奖金"
+			}
+		}, {
+			"path": "pages/pingstep2/index",
+			"style": {
+				"navigationBarTitleText": "点评奖金"
+			}
+		}, {
+			"path": "pages/pingdone/index",
+			"style": {
+				"navigationBarTitleText": "点评奖金"
+			}
+		}, {
+			"path": "pages/location/index",
+			"style": {
+				"navigationBarTitleText": "位置"
+			}
+		},
+		{
+			"path": "pages/locationcitys1/index",
+			"style": {
+				"navigationBarTitleText": "切换城市"
+			}
+		},
+		// 2020/4/24为app的分享增加跳转中介页面
+		{
+			"path": "pages/404/index",
+			"style": {
+				"navigationBarTitleText": "页面404-教育宝"
+			}
+		},
+		{
+			"path": "pages/about/index",
+			"style": {
+				"navigationBarTitleText": "关于我们-教育宝"
+			}
+		},
+		{
+			"path": "pages/agencyhistory/index",
+			"style": {
+				"navigationBarTitleText": "足迹"
+			}
+		},
+		{
+			"path": "pages/agencyactivity/index",
+			"style": {
+				"navigationBarTitleText": "活动详情"
+			}
+		},
+		{
+			"path": "pages/article/index",
+			"style": {
+				"navigationBarTitleText": "资讯详情"
+			}
+		},
+		{
+			"path": "pages/category/index",
+			"style": {
+				"navigationBarTitleText": "全部分类"
+			}
+		},
+		{
+			"path": "pages/classdetail/index",
+			"style": {
+				"navigationBarTitleText": "课程详情"
+			}
+		},
+		{
+			"path": "pages/contact/index",
+			"style": {
+				"navigationBarTitleText": "联系我们-教育宝"
+			}
+		},
+		{
+			"path": "pages/datas/index",
+			"style": {
+				"navigationBarTitleText": "知识资料"
+			}
+		},
+		{
+			"path": "pages/datasdetail/index",
+			"style": {
+				"navigationBarTitleText": "资料详情"
+			}
+		},
+		{
+			"path": "pages/enter/index",
+			"style": {
+				"navigationBarTitleText": "品牌合作" // 申请入驻
+			}
+		},
+		{
+			"path": "pages/evaluation/index",
+			"style": {
+				"navigationBarTitleText": "评价"
+			}
+		},
+		{
+			"path": "pages/fee/index",
+			"style": {
+				"navigationBarTitleText": "学费"
+			}
+		},
+		{
+			"path": "pages/feedback/index",
+			"style": {
+				"navigationBarTitleText": "意见反馈"
+			}
+		},
+		{
+			"path": "pages/haoxue/index",
+			"style": {
+				"navigationBarTitleText": "知了好学"
+			}
+		},
+		{
+			"path": "pages/intro/index",
+			"style": {
+				"navigationBarTitleText": "机构简介"
+			}
+		},
+		{
+			"path": "pages/news/index",
+			"style": {
+				"navigationBarTitleText": "机构资讯"
+			}
+		},
+		{
+			"path": "pages/notice/index",
+			"style": {
+				"navigationBarTitleText": "公告"
+			}
+		},
+		// 禁删禁改：用于百度小程序
+		{
+			"path": "pages/onlinetalk/index",
+			"style": {
+				"navigationBarTitleText": "在线客服"
+			}
+		},
+		{
+			"path": "pages/search/index",
+			"style": {
+				"navigationBarTitleText": "搜索机构或课程"
+			}
+		},
+		{
+			"path": "pages/teacherdetail/index",
+			"style": {
+				"navigationBarTitleText": "教师详情"
+			}
+		},
+		{
+			"path": "pages/xiaomi/index",
+			"style": {
+				"navigationBarTitleText": "帮我选"
+			}
+		}
+    ],
+	"subPackages": [{
+			"root": "packageA",
+			"pages": [{
+					"path": "404/index",
+					"style": {
+						"navigationBarTitleText": "页面404-教育宝"
+					}
+				},
+				{
+					"path": "about/index",
+					"style": {
+						"navigationBarTitleText": "关于我们-教育宝"
+					}
+				},
+				{
+					"path": "agencyhistory/index",
+					"style": {
+						"navigationBarTitleText": "足迹"
+					}
+				},
+				{
+					"path": "agencyactivity/index",
+					"style": {
+						"navigationBarTitleText": "活动详情"
+					}
+				},
+				{
+					"path": "article/index",
+					"style": {
+						"navigationBarTitleText": "资讯详情"
+					}
+				},
+				{
+					"path": "downloadfiles/index",
+					"style": {
+						"navigationBarTitleText": "下载文件"
+					}
+				},
+				{
+					"path": "category/index",
+					"style": {
+						"navigationBarTitleText": "全部分类"
+					}
+				},
+				{
+					"path": "classdetail/index",
+					"style": {
+						"navigationBarTitleText": "课程详情"
+					}
+				},
+				{
+					"path": "contact/index",
+					"style": {
+						"navigationBarTitleText": "联系我们-教育宝"
+					}
+				},
+				{
+					"path": "datas/index",
+					"style": {
+						"navigationBarTitleText": "知识资料"
+					}
+				},
+				{
+					"path": "datasdetail/index",
+					"style": {
+						"navigationBarTitleText": "资料详情"
+					}
+				},
+				{
+					"path": "enter/index",
+					"style": {
+						"navigationBarTitleText": "品牌合作" // 申请入驻
+					}
+				},
+				{
+					"path": "evaluation/index",
+					"style": {
+						"navigationBarTitleText": "评价"
+					}
+				},
+				{
+					"path": "fee/index",
+					"style": {
+						"navigationBarTitleText": "学费"
+					}
+				},
+				{
+					"path": "feedback/index",
+					"style": {
+						"navigationBarTitleText": "意见反馈"
+					}
+				},
+				{
+					"path": "haoxue/index",
+					"style": {
+						"navigationBarTitleText": "知了好学"
+					}
+				},
+				{
+					"path": "intro/index",
+					"style": {
+						"navigationBarTitleText": "机构简介"
+					}
+				},
+				{
+					"path": "news/index",
+					"style": {
+						"navigationBarTitleText": "机构资讯"
+					}
+				},
+				{
+					"path": "notice/index",
+					"style": {
+						"navigationBarTitleText": "公告"
+					}
+				},
+				// 禁删禁改：用于百度小程序
+				{
+					"path": "onlinetalk/index",
+					"style": {
+						"navigationBarTitleText": "在线客服"
+					}
+				},
+				{
+					"path": "search/index",
+					"style": {
+						"navigationBarTitleText": "搜索机构或课程"
+					}
+				},
+				{
+					"path": "teacherdetail/index",
+					"style": {
+						"navigationBarTitleText": "教师详情"
+					}
+				},
+				// { // 校区详情 页面没用到
+				// 	"path": "schooldetail/index",
+				// 	"style": {
+				// 		"navigationBarTitleText": "校区详情"
+				// 	}
+				// },
+				{
+					"path": "xiaomi/index",
+					"style": {
+						"navigationBarTitleText": "帮我选"
+					}
+				}
+			]
+		},
+		{
+			"root": "packageB",
+			"pages": [{
+					"path": "ping/index",
+					"style": {
+						"navigationBarTitleText": "点评奖金"
+					}
+				},
+				{
+					"path": "pingdone/index",
+					"style": {
+						"navigationBarTitleText": "点评奖金"
+					}
+				},
+				{
+					"path": "pingstep1/index",
+					"style": {
+						"navigationBarTitleText": "点评奖金"
+					}
+				},
+				{
+					"path": "pingstep2/index",
+					"style": {
+						"navigationBarTitleText": "点评奖金"
+					}
+				},
+				{
+				    "path" : "activity/index",
+				    "style" : {
+						"navigationBarTitleText": "活动详情"
+					}
+				},
+				{
+				    "path" : "order/index",
+				    "style" : {
+						"navigationBarTitleText": "订单"
+					}
+				},{
+                    "path" : "clause/index",
+                    "style" : {
+						"navigationBarTitleText": "教育宝随时退服务条款"
+					}
+                },
+				{
+				    "path" : "payresult/index",
+				    "style" : {
+						"navigationBarTitleText": "支付结果"
+					}
+				},
+				{
+				    "path" : "maperror/index",
+				    "style" : {
+						"navigationBarTitleText": "地图纠错"
+					}
+				}
+            ]
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "教育宝",
+		"navigationBarBackgroundColor": "#1a8cff",
+		"backgroundColor": "#fafbfc"
+		// "pageOrientation": "landscape"
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	}
+	// "plugins": {
+	// 	"myPlugin": {
+	// 		"version": "1.1.4", // 推荐使用最新版
+	// 		"provider": "wx3ced73f6d17e57e3"
+	// 	}
+	// },
+	// "usingComponents": {
+	// 	"chat": "plugin://myPlugin/chat"
+	// }
+
+}

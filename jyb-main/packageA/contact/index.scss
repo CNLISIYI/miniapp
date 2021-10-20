@@ -1,0 +1,4 @@
+.m-contact-container .m-common-main, .m-contact-container .m-common-main ._p ._a { text-align: justify; color: $black-8; @include fs(30upx); @include lh(56upx); }
+.m-contact-container .m-common-main ._p ._a { color: $blue-6;}
+.m-contact-container .m-common-main ._span { @include fw(); }
+.m-contact-container .m-common-main ._p { @include mt(20upx); }

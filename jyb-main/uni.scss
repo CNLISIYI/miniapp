@@ -1,0 +1,199 @@
+///////////////
+//// uni-app 相关变量
+///////////////
+////// 颜色变量
+// 行为相关颜色
+$uni-color-primary: #1a8cff;			// $blue-6
+$uni-color-success: #15d669;			// $green-6
+$uni-color-warning: #ffc200;			// $yellow-6
+$uni-color-error: #fe1940;				// $red-6
+// 文字基本颜色
+$uni-text-color:#262626;//基本色			// $black-8
+$uni-text-color-inverse:#fff;//反色
+$uni-text-color-grey:#595959;			// $black-6
+$uni-text-color-placeholder: #ababab;	// $black-3
+$uni-text-color-disable:#c0c0c0;
+// 背景颜色
+$uni-bg-color:#fafbfc;					// $bg
+$uni-bg-color-grey:#ebebeb;				// $gray-6
+$uni-bg-color-hover:#f1f1f1;//点击状态颜色
+$uni-bg-color-mask:rgba(0, 0, 0, 0.4);//遮罩颜色
+// 边框颜色
+$uni-border-color:#e5e8ed;				// $line-1
+////// 尺寸变量
+// 文字尺寸
+$uni-font-size-sm:24upx;
+$uni-font-size-base:28upx;
+$uni-font-size-lg:32upx;
+// 图片尺寸
+$uni-img-size-sm:40upx;
+$uni-img-size-base:52upx;
+$uni-img-size-lg:80upx;
+// Border Radius
+$uni-border-radius-sm: 4upx;
+$uni-border-radius-base: 6upx;
+$uni-border-radius-lg: 12upx;
+$uni-border-radius-circle: 50%;
+// 水平间距
+$uni-spacing-row-sm: 10px;
+$uni-spacing-row-base: 20upx;
+$uni-spacing-row-lg: 30upx;
+// 垂直间距
+$uni-spacing-col-sm: 8upx;
+$uni-spacing-col-base: 16upx;
+$uni-spacing-col-lg: 24upx;
+// 透明度
+$uni-opacity-disabled: 0.3; // 组件禁用态的透明度
+// 文章场景相关
+$uni-color-title: #2C405A; // 文章标题颜色
+$uni-font-size-title:40upx;
+$uni-color-subtitle: #555555; // 二级标题颜色
+$uni-font-size-subtitle:36upx;
+$uni-color-paragraph: #3F536E; // 文章段落颜色
+$uni-font-size-paragraph:30upx;
+
+
+///////////////
+//// jyb-ui 相关变量
+///////////////
+////// jyb-color
+// 主色
+$blue-6: $uni-color-primary; 			// #1a8cff
+$red-6: $uni-color-error; 				// #fe1940
+$red-4: #fe8398;						// #fe8398
+$green-6: $uni-color-success; 			// #15d669
+$green-4: #81e9ae;						// #81e9ae
+$yellow-6: $uni-color-warning; 			// #ffc200
+$yellow-4: #ffde76;						// #ffde76
+// 辅色
+$gray-6: $uni-bg-color-grey;			// #ebebeb
+$black-3: $uni-text-color-placeholder;	// #ababab
+$black-4: #8c8c8c;
+$black-6: $uni-text-color-grey; 		// #595959
+$black-8: $uni-text-color;				// #262626
+// line / border
+$line-1: $uni-border-color;				// #e5e8ed
+$line-2: #d9d9da;
+// background
+$bg: $uni-bg-color;						// #fafbfc
+$d8: #d8d8d8;
+////// jyb-font-size
+
+
+////// 常用变量
+// margin, padding
+@mixin mt($mt) { margin-top: $mt; }
+@mixin mb($mb) { margin-bottom: $mb; }
+@mixin ml($ml) { margin-left: $ml; }
+@mixin mr($mr) { margin-right: $mr; }
+@mixin pt($pt) { padding-top: $pt; }
+@mixin pb($pb) { padding-bottom: $pb; }
+@mixin pl($pl) { padding-left: $pl; }
+@mixin pr($pr) { padding-right: $pr; }
+// 字体
+@mixin fs($fs) { font-size: $fs; }
+@mixin fw($fw:600) { font-weight: $fw; }
+// 行高
+@mixin lh($lh) { line-height: $lh; }
+// border
+@mixin bdw($w:2upx) { border-width: $w; }
+@mixin bds($s:solid) { border-style: $s; }
+@mixin bdc($c:$line-1) { border-color: $c; }
+@mixin bdr($bdr:4upx) { border-radius: $bdr; }
+// background-color
+@mixin bgc($c) { background-color: $c; }
+// position:fixed;
+@mixin fixed($type:fixed, $l:0, $t:0, $r:auto, $b:auto) { position: $type; left: $l; top: $t; right: $r; bottom: $b; }
+// icon
+@mixin icon-common($w:56upx, $h:56upx, $bgc:$d8) { width: $w; height: $h; @include bgc($bgc); }
+@mixin icon-mask($name) { mask: url("https://static.jiaoyubao.cn/images/common/#{$name}.svg") no-repeat; }
+// flex-box
+@mixin flex-box-column() { display: flex; flex-direction: column; justify-content: center; align-items: center; }
+@mixin flex-box-around() { display: flex; justify-content: space-around; align-items: center; }
+
+// placehlder
+@mixin placehlder($el:input, $size:28upx, $color:$black-3) {
+	@if ($el == input or $el == textarea){
+		#{$el}::-webkit-input-placeholder {
+		    color: $color;
+		    @include fs($size);
+		}
+		#{$el}:-moz-placeholder {
+		    color: $color;
+		    @include fs($size);
+		}
+		#{$el}::-moz-placeholder {
+		    color: $color;
+		    @include fs($size);
+		}
+		#{$el}:-ms-input-placeholder {
+		    color: $color;
+		    @include fs($size);
+		}
+	} @else {
+		.#{$el}::-webkit-input-placeholder {
+		    color: $color;
+		    @include fs($size);
+		}
+		.#{$el}:-moz-placeholder {
+		    color: $color;
+		    @include fs($size);
+		}
+		.#{$el}::-moz-placeholder {
+		    color: $color;
+		    @include fs($size);
+		}
+		.#{$el}:-ms-input-placeholder {
+		    color: $color;
+		    @include fs($size);
+		}
+	}
+}
+////////////////////////////////////// 1px边框
+// 四边1px：.border-1px(red);
+// 单边1px：.border-1px(red,left);
+// 四边1px + radius：.border-1px(red,all,4px);
+@mixin border-1px($color:$line-1,$side:all,$radius:0) {
+	position: relative;
+	@mixin side-parse() {
+		@if ($side == all) {
+			border: 2upx solid $color;
+		} @else if ($side == left or $side == bottom or $side == right or $side == top) {
+			border-#{$side}: 2upx solid $color;
+		}
+	} 
+	&::before {
+		content: '\0020';
+		// 用以解决边框layer遮盖内容
+		position: absolute;
+		pointer-events: none;
+		top: 0;
+		left: 0;
+		z-index:10;
+		// overflow: hidden;
+		@include side-parse();
+		box-sizing: border-box;
+		transform-origin: 0 0;
+		@media (max--moz-device-pixel-ratio: 1.49), (-webkit-max-device-pixel-ratio: 1.49), (max-device-pixel-ratio: 1.49), (max-resolution: 143dpi), (max-resolution: 1.49dppx) {
+			width: 100%;
+			height: 100%;
+			border-radius: $radius;
+		}
+		@media (min--moz-device-pixel-ratio: 1.5) and (max--moz-device-pixel-ratio: 2.49),
+			(-webkit-min-device-pixel-ratio: 1.5) and (-webkit-max-device-pixel-ratio: 2.49),
+			(min-device-pixel-ratio: 1.5) and (max-device-pixel-ratio: 2.49),
+			(min-resolution: 144dpi) and (max-resolution: 239dpi),
+			(min-resolution: 1.5dppx) and (max-resolution: 2.49dppx) {
+			width: 200%;
+			height: 200%;
+			transform: scale(0.5);
+			border-radius: $radius * 2;
+		}
+		@media (min--moz-device-pixel-ratio: 2.5), (-webkit-min-device-pixel-ratio: 2.5), (min-device-pixel-ratio: 2.5), (min-resolution: 240dpi), (min-resolution: 2.5dppx) {
+			width: 300%;
+			height: 300%;
+			transform: scale(0.33);
+			border-radius: $radius * 3;
+		}
+	}
+}

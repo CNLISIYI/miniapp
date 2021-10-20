@@ -1,0 +1,332 @@
+page {
+  background: #f5f6f7; }
+
+.m-page-content {
+  position: relative;
+  padding-bottom: 144upx; }
+
+.m-page-content .jyb-score {
+  margin-left: 12upx; }
+
+.m-page-content .jyb-score img {
+  width: 120upx;
+  height: 24upx; }
+
+.m-activity-img {
+  width: 750upx;
+  min-height: 450upx; }
+
+.m-activity-img img {
+  width: 750upx;
+  height: 450upx; }
+
+.m-activity-content {
+  padding: 40upx 32upx 48upx; }
+
+.m-activity-content img {
+  width: 686upx;
+  max-width: 686upx; }
+
+.m-activity-content h1 {
+  margin-bottom: 24upx;
+  font-size: 48upx;
+  font-weight: 600;
+  line-height: 64upx;
+  color: #262626; }
+
+.m-activity-content rich-text {
+  font-size: 30upx;
+  line-height: 52upx;
+  text-align: justify;
+  color: #262626; }
+
+.m-activity-content > span,
+.m-activity-content > p {
+  font-size: 30upx;
+  line-height: 48upx;
+  text-align: justify;
+  color: #8c8c8c; }
+
+.m-activity-content .m-intro-line {
+  margin: 32upx 0upx;
+  padding: 0; }
+
+.m-center-title {
+  height: 26upx; }
+
+.m-center-title span {
+  display: block;
+  width: 180upx;
+  margin: 0 auto;
+  font-size: 28upx;
+  line-height: 48upx;
+  text-align: center;
+  color: #595959;
+  background: #ffffff;
+  transform: translateY(-50%); }
+
+.m-activity-class {
+  padding: 40upx 32upx 48upx; }
+
+.m-activity-class .m-class-list li {
+  position: relative; }
+
+.m-activity-class .m-class-list li:first-child {
+  margin-top: 40upx; }
+
+.m-activity-class .jyb-btn {
+  width: 154upx;
+  height: 48upx;
+  padding: 0;
+  position: absolute;
+  text-align: center;
+  z-index: 10;
+  right: 0;
+  bottom: 0;
+  font-size: 24upx;
+  line-height: 48upx;
+  border: 0;
+  -moz-border-radius: 30upx;
+  border-radius: 30upx; }
+
+.m-other-activity {
+  padding: 66upx 32upx 140upx; }
+
+.m-other-activity-list {
+  margin-top: 20upx; }
+
+.m-other-activity-list li {
+  height: 90upx;
+  padding-top: 28upx;
+  border-bottom: 1px solid #eee; }
+
+.m-other-activity-list a {
+  position: relative; }
+
+.m-other-activity-list font {
+  width: 108upx;
+  height: 36upx;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 22upx;
+  line-height: 36upx;
+  text-align: center;
+  color: #fe5467; }
+
+.m-other-activity-list span {
+  margin-left: 12upx;
+  font-size: 28upx;
+  line-height: 36upx;
+  color: #262626; }
+
+.m-activity-bg {
+  width: 108upx;
+  height: 36upx; }
+
+.m-activity-link-right {
+  width: 26upx;
+  height: 26upx;
+  margin-left: 18upx; }
+
+.m-activity-blank {
+  width: 750upx;
+  height: 200upx; }
+
+.m-activity-btn-box {
+  width: 750upx;
+  height: 100upx;
+  position: fixed;
+  z-index: 20;
+  bottom: 0;
+  left: 0; }
+
+.m-activity-btn-inner .jyb-btn {
+  height: 100upx;
+  font-size: 32upx;
+  line-height: 100upx;
+  border: 0;
+  -moz-border-radius: 0;
+  border-radius: 0; }
+
+.m-activity-btn-inner .jyb-btn-light {
+  color: #1a8cff;
+  background: #e6f4ff; }
+
+.m-activity-btn-box .jyb-btn-gray {
+  width: 750upx;
+  height: 100upx;
+  font-size: 32upx;
+  line-height: 100upx;
+  color: #8c8c8c;
+  border: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  background: #d9d9da; }
+
+.m-intro-line {
+  width: 686upx;
+  height: 2upx;
+  padding: 0 32upx;
+  background: #fff; }
+
+.m-intro-line span {
+  width: 100%;
+  height: 2upx;
+  display: inline-block;
+  float: left;
+  background: #eee; }
+
+.m-class-list li {
+  margin-top: 48upx; }
+
+.m-class-list li:first-child {
+  margin-top: 34upx; }
+
+.m-class-img {
+  width: 280upx;
+  height: 168upx;
+  position: relative; }
+
+.m-class-img img {
+  width: 280upx;
+  height: 168upx;
+  -moz-border-radius: 8upx;
+  border-radius: 8upx; }
+
+.m-class-img .m-class-tuijian-sign {
+  width: 78upx;
+  height: 40upx;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -moz-border-radius: 0;
+  border-radius: 0; }
+
+.m-class-intro {
+  height: 168upx;
+  margin-left: 20upx; }
+
+.m-class-intro h3 {
+  width: 374upx;
+  height: 44upx;
+  font-size: 34upx;
+  line-height: 44upx;
+  color: #262626;
+  white-space: nowrap;
+  text-overflow: ellipsis; }
+
+.m-class-intro p {
+  width: 374upx;
+  height: 34upx;
+  margin-top: 6upx;
+  padding-left: 2upx;
+  font-size: 24upx;
+  line-height: 34upx;
+  color: #8c8c8c;
+  white-space: nowrap;
+  text-overflow: ellipsis; }
+
+.m-class-intro div {
+  height: 40upx;
+  margin-top: 44upx;
+  font-size: 24upx;
+  line-height: 40upx;
+  color: #8c8c8c;
+  -webkit-box-pack: left;
+  -moz-box-pack: left;
+  -ms-flex-pack: left;
+  justify-content: left; }
+
+.m-class-intro em {
+  font-family: arial;
+  font-size: 28upx;
+  color: #fe1940; }
+
+.m-class-intro i {
+  width: 52upx;
+  height: 28upx;
+  margin-left: 8upx;
+  display: inline-block;
+  font-size: 22upx;
+  font-weight: lighter;
+  line-height: 27upx;
+  text-align: center;
+  color: #fe1940;
+  border: 1px solid #fe1940;
+  -moz-border-radius: 4upx;
+  border-radius: 4upx; }
+
+.jyb-btn-blue {
+  background-color: #1a8cff;
+  color: #ffffff; }
+
+.footer-ele-padding {
+  margin-top: -20upx; }
+
+.m-fixed-form-mask {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 101;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6); }
+
+.m-fixed-form-outer {
+  width: 100%;
+  /*min-height: 180px;*/
+  height: auto;
+  position: fixed;
+  z-index: 200;
+  bottom: -350px;
+  left: 0;
+  background: #fff; }
+
+.m-fixed-form-close {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  right: 0; }
+
+.m-fixed-form-close img {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: 15px;
+  right: 16px; }
+
+.m-fixed-form-outer .jyb-btn {
+  width: 100%;
+  height: 48px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #e7f2fc;
+  -moz-border-radius: 0;
+  border-radius: 0; }
+
+.footer-form-container {
+  padding: 0 24px; }
+
+.m-jyb-bottom-blank {
+  width: 100%;
+  height: 20px; }
+
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  .m-activity-btn-box {
+    height: 168upx;
+    padding-bottom: 68upx;
+    background-color: #FFFFFF; } }
+
+@media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
+  .m-activity-btn-box {
+    height: 168upx;
+    padding-bottom: 68upx;
+    background-color: #FFFFFF; } }
+
+@media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) {
+  .m-activity-btn-box {
+    height: 168upx;
+    padding-bottom: 68upx;
+    background-color: #FFFFFF; } }

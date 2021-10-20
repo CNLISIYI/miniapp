@@ -1,0 +1,4 @@
+.m-about-container .m-common-main { text-align: justify; color: $black-8; @include fs(30upx); @include lh(56upx); }
+.m-about-container .m-common-main ._p { @include mt(20upx); }
+.m-about-container .m-common-main ._img { width: 690upx; height: 452upx; margin: 0 auto; }
+.m-about-container .m-common-main ._img.mt10 { @include mt(20upx); }

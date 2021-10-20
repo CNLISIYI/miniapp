@@ -1,0 +1,56 @@
+.m-teacher-detail-container { padding-bottom: 19px; position: relative; overflow: hidden; background: #fff url(https://static.jiaoyubao.cn/images/uniapp/teacher-bg.png) no-repeat left top; -moz-background-size: 100% 188px; background-size: 100% 188px; }
+.m-teacher-detail-container.no-bg-image { padding-bottom: 17px; background: #fff; }
+.m-teacher-detail-bg { width: 100%; height: auto; position: absolute; z-index: -1; top: 0; left: 0; }
+
+.m-detail-teacher .m-module-title { height: 48px; padding: 23px 0 1px 16px; }
+.m-teacher-detail-intro { min-height: 177px; margin: 57px 17px 0; padding: 50px 10px 20px; position: relative; -webkit-box-shadow: 0 0 5px 0 rgba(114, 129, 142, .20); -moz-box-shadow: 0 0 5px 0 rgba(114, 129, 142, .20); box-shadow: 0 0 5px 0 rgba(114, 129, 142, .20); }
+.m-teacher-detail-header { width: 76px; height: 76px; margin-left: -39px; padding: 3px; position: absolute; top: -39px; left: 50%; -moz-border-radius: 50%; border-radius: 50%; background: #fff; }
+.m-teacher-detail-header img { width: 100%; height: 100%; -moz-border-radius: 50%; border-radius: 50%; }
+.m-teacher-detail-intro > h2 { height: 28px; font-size: 20px; font-weight: 600; line-height: 28px; text-align: center; letter-spacing: 0; color: #262626; }
+.m-teacher-detail-intro > p { min-height: 18px; margin-top: 5px; font-size: 12px; line-height: 18px; text-align: center; letter-spacing: 0; color: #8c8c8c; }
+.m-teacher-detail-intro  ul { margin-top: 14px; }
+.m-teacher-detail-intro  li { -webkit-box-flex: 1; -moz-box-flex: 1; -ms-flex: 1; flex: 1; }
+.m-teacher-detail-intro  li + li { border-left: .5px solid #eee; }
+.m-teacher-detail-intro  ul h3 {    /*width: -moz-calc((100vw - 56px) / 3); width: calc((100vw - 56px) / 3);*/ height: 22px; overflow: hidden; font-size: 16px; font-weight: 600; line-height: 22px; text-align: center; white-space: nowrap; text-overflow: ellipsis; color: #595959; }
+.m-teacher-detail-intro  ul span { height: 17px; margin-top: 3px; display: block; font-size: 12px; line-height: 17px; text-align: center; color: #ababab; }
+.m-teacher-detail-container .jyb-tab { width: 100%; text-align: center; border-color: #eee; }
+.m-jybtab-fixed-before{width: 100%; height:46px;}
+.m-teacher-detail-container .jyb-tab.m-jybtab-fixed-outer{position: fixed;width: 100%; left: 0; top: 44px; z-index: 997;background: #fff;}
+.m-teacher-detail-container .jyb-tab-style1 li { height: 45px; padding: 0 16px; float: none; line-height: 45px; }
+.m-teacher-detail-container .jyb-tab-style1 li a { line-height: 42px; border-bottom: 3px solid #fff; }
+.m-teacher-detail-container .jyb-tab-style1 li.jyb-tab-cur a { font-weight: 600; border-bottom-color: #1a8cff; }
+.m-teacher-detail-container .jyb-tab-style1 .jyb-tab-line { height: 3px; }
+.m-teacher-detail-container .video-container { height: 54.93vw; margin: 16px 16px 0; }
+.m-teacher-detail-container video { width: 100%; height: auto; position: absolute; z-index: 10; top: 50%; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); }
+.m-teacher-detail-fangda { width: 18px; position: absolute; z-index: 100; right: 10px; bottom: 10px; }
+.m-teacher-detail-js { padding: 0 16px 0; }
+.m-teacher-detail-js dl { margin-top: 12px; }
+.m-teacher-detail-js .m-module-title { margin-bottom: 15px; }
+.m-teacher-detail-js dt, .m-teacher-detail-js dd { float: left; font-size: 15px; line-height: 20px; color: #595959; }
+.m-teacher-detail-js dd { width: -moz-calc(100% - 76px); width: calc(100% - 76px); }
+.m-teacher-detail-js > div { margin-top: 16px; }
+.m-teacher-detail-js > div img { width: 100%; height: auto; }
+.m-teacher-detail-js > div p {font-size: 15px;line-height: 28px;letter-spacing: 0;color: #595959;margin-top: 10px;}
+.m-teacher-detail-line { height: .5px; margin: 24px 0 0; display: block; background: #eee; }
+
+
+.m-teacher-detail-transition .m-jyb-header{
+	transition: all 0.5s ease;
+	background: rgba(0, 0, 0, 0);
+	&::before{
+		display:none;
+	}
+	.m-common-icon{
+		@include bgc(#fff);
+	}
+	.m-header-title ._a{
+		color: #fff;
+	}
+}
+.main-attack{
+	@include fs(16px);
+}
+
+.m-class {
+    padding: 23px 16px 24px 15px;
+}
