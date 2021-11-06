@@ -1,0 +1,131 @@
+
+.list-nav {
+    width: 100%;
+    padding: 20upx 30upx 8upx;
+    display: flex;
+    flex-flow: wrap;
+    background-color: #ffffff;
+    justify-content: space-between;
+
+    ._li {
+        display: inline-block;
+        line-height: 1;
+        font-size: 14px;
+        font-family: PingFang SC;
+        color: #222222;
+        text-align: center;
+        vertical-align: bottom;
+    }
+
+    ._span {
+        display: none;
+        margin: 14upx auto 0;
+        width: calc(100% - 16upx);
+        height: 8upx;
+        background: #2EB97B;
+        border-radius: 4upx;
+    }
+
+    .on {
+        font-size: 34upx;
+        font-weight: 500;
+        color: #45B780;
+
+        ._span {
+            display: block;
+        }
+    }
+}
+
+.insu-ul {
+    padding: 0 30upx 60upx;
+
+    ._li {
+        margin-top: 20upx;
+        width: 100%;
+        border-radius: 6upx;
+        background-color: #ffffff;
+        padding: 30upx 20upx;
+    }
+
+    image {
+        float: left;
+        width: 164upx;
+        height: 164upx;
+        border-radius: 6upx;
+        margin-right: 26upx;
+    }
+
+    ._h4 {
+        display: block;
+        margin-bottom: 14upx;
+        font-size: 30upx;
+        font-family: PingFang SC;
+        font-weight: 500;
+        color: #222222;
+        line-height: 1;
+        width: calc(100% - 200upx);
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    ._p {
+        display: block;
+        font-size: 28upx;
+        font-family: PingFang SC;
+        color: #666666;
+        line-height: 1;
+        width: calc(100% - 200upx);
+        margin-bottom: 14upx;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+}
+
+.label-box {
+    font-size: 0;
+    margin-bottom: 12upx;
+
+    ._span {
+        display: inline-block;
+        vertical-align: middle;
+        padding: 0 12upx;
+        line-height: 34upx;
+        border: 1px solid #55ADEF;
+        border-radius: 2px;
+        font-size: 10px;
+        font-family: PingFang SC;
+        color: #55ADEF;
+    }
+
+    ._span+._span {
+        margin-left: 14upx;
+    }
+}
+
+.fee-box {
+    .num {
+        font-size: 34upx;
+        color: #EF702D;
+        line-height: 1;
+    }
+
+    .fee {
+        display: inline-block;
+        ._span {
+            margin-left: 0;
+        }
+    }
+
+    ._span {
+        display: inline-block;
+        font-size: 12px;
+        font-family: PingFang SC;
+        color: #999999;
+        line-height: 1;
+        margin-left: 30upx;
+    }
+}

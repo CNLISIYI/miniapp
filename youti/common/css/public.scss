@@ -1,0 +1,41 @@
+.news-ul {
+    padding: 0 30upx 168upx;
+
+    image {
+        float: right;
+        width: 218upx;
+        height: 152upx;
+        margin-left: 50upx;
+    }
+
+    ._li {
+        padding: 30upx 0;
+        border-bottom: 1px solid rgba($color: #000000, $alpha: 0.12);
+    }
+
+    ._h4 {
+        display: block;
+        width: calc(100% - 270upx);
+        min-height: 82upx;
+        padding-top: 6upx;
+        margin-bottom: 40upx;
+        font-size: 30upx;
+        font-family: PingFang SC;
+        font-weight: 500;
+        color: #222222;
+        line-height: 40upx;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-box-orient: vertical;
+    }
+
+    ._p {
+        display: block;
+        font-size: 24upx;
+        font-family: PingFang SC;
+        color: #999999;
+        line-height: 1;
+    }
+}

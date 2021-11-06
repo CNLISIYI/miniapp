@@ -1,0 +1,44 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "优体健康管理",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/insurance/index",
+			"style": {
+				"navigationBarTitleText": "保险"
+			}
+		},
+		{
+			"path": "pages/insudetail/index",
+			"style": {
+				"navigationBarTitleText": "保险"
+			}
+		},
+		{
+			"path": "pages/news/index",
+			"style": {
+				"navigationBarTitleText": "健康百科"
+			}
+		},
+		{
+			"path": "pages/newsdetail/index",
+			"style": {
+				"navigationBarTitleText": "健康百科"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "优体健康管理",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F8F8F8"
+	}
+}
