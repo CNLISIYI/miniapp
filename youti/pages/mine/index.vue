@@ -9,6 +9,7 @@
 		>
 			登录
 		</button>
+		<navigator url="../school/index">hahahhahahah</navigator>
 		<AppFooter></AppFooter>
 	</view>
 </template>
@@ -36,4 +37,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "./index.scss";
+
 </style>
