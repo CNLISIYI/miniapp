@@ -1,0 +1,107 @@
+.insu-body {
+    position: relative;
+    background-color: #f7f7f7;
+    min-height: 100vh;
+    .img-box {
+        width: 100vw;
+        height: 350upx;
+    }
+}
+
+.bgbox {
+    padding: 30upx;
+    background-color: #ffffff;
+    margin-bottom: 20upx;
+
+    ._h4 {
+        font-size: 30upx;
+        font-family: PingFang SC;
+        font-weight: 500;
+        color: #222222;
+        line-height: 40upx;
+        margin-bottom: 20upx;
+    }
+
+    ._h3 {
+        font-size: 36upx;
+        font-family: PingFang SC;
+        font-weight: 600;
+        color: #222222;
+        line-height: 50upx;
+    }
+}
+
+.intro {
+    display: block;
+    font-size: 30upx;
+    color: #999999;
+    line-height: 40upx;
+    margin-top: 20upx;
+}
+
+._ul {
+    ._li+._li {
+        margin-top: 30upx;
+    }
+}
+
+._li {
+    width: 100%;
+    font-size: 0;
+
+    ._span {
+        width: 160upx;
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 28upx;
+        color: #999999;
+        line-height: 1;
+    }
+
+    ._p {
+        width: calc(100% - 160upx);
+        display: inline-block;
+        vertical-align: middle;
+        text-align: right;
+        line-height: 1;
+        font-size: 30upx;
+        color: #222222;
+    }
+}
+
+.footer-box {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 100upx;
+    background: #FFFFFF;
+    box-shadow: -3px 0px 7px 0px rgba(0, 0, 0, 0.1);
+    padding: 10upx 30upx;
+
+    .fee {
+        float: left;
+        color: #EC652D;
+        line-height: 80upx;
+        ._p {
+            font-size: 36upx;
+        font-weight: 500;
+        }
+
+        .span {
+            font-size: 24upx;
+        }
+    }
+
+    .sub-btn {
+        float: right;
+        width: 236upx;
+        height: 80upx;
+        background: #45B780;
+        border-radius: 40upx;
+        text-align: center;
+        line-height: 80upx;
+        color: #ffffff;
+        font-size: 28upx;
+    }
+}

@@ -5,7 +5,7 @@ export default {
 		// token: "Rj1/cheqhpRSNqWMdQU2ClcSmXWaBQQmVQO3jHAB5rMU2gkDHju1h4AF3GmaDtyY",
 		token: "",
 		session_key: "",
-		userinfo: {},
+			phone: '15353388485',
 	},
 	onLaunch: function () {
 		// 检查小程序版本更新
@@ -14,6 +14,7 @@ export default {
 
 		// wx.login({
 		// 	success: (responce) => {
+		// 		this.getCode(responce.code)
 		// 	},
 		// 	fail: (error) => {
 		// 		console.log("登录失败");
@@ -55,14 +56,30 @@ export default {
 				});
 			});
 		},
-	
+		// 检查登录
+		getCode(code) {
+			let _this = this;
+			// $apis.GetUserLog({
+			// 	data: {
+			// 		code,
+			// 	},
+			// 	success: (res) => {
+			// 		console.log(res.body)
+			// 		_this.$options.globalData.userinfo = res.body;
+			// 		_this.$options.globalData.session_key = res.body.session_key;
+			// 	},
+			// 	fail: (err) => {
+			// 		this.$tools.toastShow(err.msg);
+			// 	},
+			// });
+		},
 	},
 };
 </script>
 
 <style lang="scss">
 /*每个页面公共css */
-@import "./uview-ui/index.scss";
+@import "@/uni_modules/uview-ui/index.scss";
 @import "./common/css/reset.css";
 @import "./common/css/public.scss";
 </style>

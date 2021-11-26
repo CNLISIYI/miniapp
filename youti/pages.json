@@ -1,6 +1,6 @@
 {
 	"easycom": {
-		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+		"^u-(.*)": "@/uni_modules/uview-ui/components/u-$1/u-$1.vue"
 	},
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
@@ -19,7 +19,7 @@
 		{
 			"path": "pages/insudetail/index",
 			"style": {
-				"navigationBarTitleText": "保险"
+				"navigationBarTitleText": "保险详情"
 			}
 		},
 		{
@@ -37,14 +37,23 @@
 		{
 			"path": "pages/mine/index",
 			"style": {
-				"navigationBarTitleText": "我的"
+				"navigationBarTitleText": "我的",
+				"navigationBarBackgroundColor": "#F7F7F7"
 			}
 		},
 		{
-			"path": "pages/school/index",
+			"path": "pages/myinfo/index",
 			"style": {
-				"navigationBarTitleText": "学校绑定",
+				"navigationBarTitleText": "个人信息",
 				"navigationBarBackgroundColor": "#BBDEF7"
+			}
+		},
+		{
+			"path": "pages/vip/index",
+			"style": {
+				"navigationBarTitleText": "会员中心",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#283A62"
 			}
 		}
 	],

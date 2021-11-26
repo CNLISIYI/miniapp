@@ -21,20 +21,20 @@
 					<image :src="item.thumb"></image>
 					<text class="_h4">{{ item.title }}</text>
 					<text class="_p">{{ item.intro }}</text>
-					<view class="label-box">
+					<!-- <view class="label-box">
 						<text
 							class="_span"
 							v-for="(litem, lindex) in item.label"
 							:key="lindex"
 							>{{ litem }}</text
 						>
-					</view>
+					</view> -->
 					<view class="fee-box">
 						<view class="fee"
-							><text class="num">¥{{ item.fee }}</text
-							><text class="_span">/年</text></view
-						>
-						<text class="_span">已售{{ item.sell }}+</text>
+							><text class="num">¥{{ item.fee }}</text>
+							<!-- <text class="_span">/年</text> -->
+						</view>
+						<!-- <text class="_span">已售{{ item.sell }}+</text> -->
 					</view>
 				</navigator>
 			</view>

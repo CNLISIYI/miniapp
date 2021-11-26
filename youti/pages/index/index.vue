@@ -6,7 +6,7 @@
 			</view>
 			<view class="navtitle">优体健康管理</view>
 		</view>
-		<view class="home-main" :style="'padding-top:' + mainpt + 'px'">
+		<view class="home-main autopb" :style="'padding-top:' + mainpt + 'px'">
 			<u-swiper :list="bannerlist"></u-swiper>
 			<view class="homenav-box">
 				<navigator class="_a" url="" hover-class="none">

@@ -19,7 +19,7 @@
 				{{ item }}
 			</view>
 		</view>
-		<view class="news-ul">
+		<view class="news-ul autopb">
 			<view class="_li" v-for="(item, index) in newsList" :key="index">
 				<navigator
 					class="_a clearfix"

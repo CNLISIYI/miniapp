@@ -98,20 +98,5 @@ export default {
 		color: #45b780;
 	}
 }
-@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
-	.app-footer {
-		height: 168upx;
-	}
-}
-@media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
-	.app-footer {
-		height: 168upx;
-	}
-}
 
-@media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) {
-	.app-footer {
-		height: 168upx;
-	}
-}
 </style>

@@ -4,7 +4,8 @@ import App from './App'
 import tools from "./common/js/util";
 import apis from './common/api/apis.js';
 
-import uView from "uview-ui";
+// import uView from "uview-ui";
+import uView from '@/uni_modules/uview-ui'
 Vue.use(uView);
 
 Vue.prototype.$tools = tools;
