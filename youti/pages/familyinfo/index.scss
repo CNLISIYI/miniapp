@@ -1,0 +1,74 @@
+._h2 {
+    font-size: 32upx;
+    font-weight: 600;
+    color: #222222;
+    line-height: 48upx;
+    padding: 0 20upx;
+}
+
+.form-box {
+    padding-top: 40upx;
+
+    .clearfix {
+        margin-bottom: 10upx;
+    }
+
+    ._label {
+        float: left;
+        font-size: 30upx;
+        color: #222222;
+        line-height: 110upx;
+    }
+
+    ._required::before {
+        content: "*";
+        color: #f56c6c;
+        margin-right: 8upx;
+    }
+
+    .item-input {
+        float: right;
+        width: calc(100% - 200upx);
+        line-height: 110upx;
+        font-size: 28upx;
+        text-align: right;
+
+        input {
+            width: 90%;
+        }
+    }
+
+    .item-radio {
+        width: auto;
+        float: right;
+        margin-top: 36upx;
+    }
+
+    /deep/.u-radio {
+        margin-left: 60upx;
+    }
+
+    ._input {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .iconfont {
+        display: inline-block;
+        font-size: 24upx;
+        color: #666666;
+        vertical-align: middle;
+        margin-left: 8upx;
+    }
+}
+
+.sub-btn {
+    width: calc(100% - 144upx);
+    margin: 60upx auto;
+    background: #45B780;
+    border-radius: 40upx;
+    text-align: center;
+    line-height: 80upx;
+    font-size: 28upx;
+    color: #FFFFFF;
+}

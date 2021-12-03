@@ -1,0 +1,76 @@
+.fam-ul {
+    padding: 20upx 30upx;
+
+    ._li {
+        display: block;
+        background: #FFFFFF;
+        border-radius: 6upx;
+        width: 100%;
+        padding: 50upx 30upx;
+        margin-bottom: 20upx;
+        position: relative;
+    }
+
+    .iconfont {
+        position: absolute;
+        color: #45B780;
+        font-size: 40upx;
+        right: 48upx;
+        bottom: 68upx;
+    }
+}
+
+._top {
+    font-size: 0;
+    margin-bottom: 30upx;
+
+    ._h4 {
+        font-size: 30upx;
+        color: #222222;
+        line-height: 1;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    ._span {
+        display: inline-block;
+        vertical-align: middle;
+        line-height: 26upx;
+        padding: 0 10upx;
+        font-size: 20upx;
+        color: #45B780;
+        margin-left: 14upx;
+        background: rgba(69, 183, 128, .2);
+    }
+}
+
+._bottom {
+    font-size: 0;
+
+    text {
+        font-size: 26upx;
+        color: #999999;
+        line-height: 1;
+        margin-right: 24upx;
+    }
+}
+
+.add-btn {
+    width: 200upx;
+    margin: 20upx auto 0;
+    font-size: 0;
+    padding: 20upx 0;
+    .iconfont {
+        display: inline-block;
+        margin-right: 14upx;
+        font-size: 32upx;
+        color: #45B780;
+        line-height: 1;
+    }
+
+    text {
+        font-size: 30upx;
+        color: #45B780;
+        line-height: 32upx;
+    }
+}

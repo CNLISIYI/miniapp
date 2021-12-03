@@ -1,6 +1,6 @@
 <template>
 	<view class="school-body">
-		<navigator url="../mine/index" class="ignore-btn">跳过</navigator>
+		<view class="ignore-btn" @click="$tools.naviPrev()" hover-class="none">跳过</view>
 		<view class="img-t"
 			><image src="../../static/mine/schoolt.jpg"></image
 		></view>

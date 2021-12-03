@@ -26,6 +26,7 @@
 				<view class="_p">普通会员</view>
 			</view>
 			<view class="vip-box">
+				<image class="bg-img" src="../../static/mine/grid.jpg"></image>
 				<view v-if="userdata.vip" class="clearfix">
 					<view class="vip-l">
 						<i class="iconfont">&#xe7c8;</i>
@@ -69,6 +70,50 @@
 				</view>
 			</view>
 		</view>
+		<view class="power-box">
+			<view class="_h4">会员尽享八种尊贵特权</view>
+			<u-scroll-list :indicator="false">
+				<view class="scroll-list">
+					<view class="_li">
+						<i class="iconfont">&#xe726;</i>
+						<view class="_h5">会员免单</view>
+						<view class="_p">专家解读</view>
+					</view>
+					<view class="_li">
+						<i class="iconfont">&#xe7da;</i>
+						<view class="_h5">最低4折</view>
+						<view class="_p">精选健康套餐</view>
+					</view>
+					<view class="_li">
+						<i class="iconfont">&#xe730;</i>
+						<view class="_h5">指导卡</view>
+						<view class="_p">VIP健康指导</view>
+					</view>
+					<view class="_li">
+						<i class="iconfont">&#xe7ab;</i>
+						<view class="_h5">体测卡</view>
+						<view class="_p">专属一对一体测</view>
+					</view>
+				</view>
+			</u-scroll-list>
+			<view class="_text">
+				开通会员期间可享受多重福利，并配有1对1专业人士进行健康跟踪指导，有任何问题也可随时联系工作人员。</view
+			>
+		</view>
+		<view class="phone-pop" v-if="getphoneshow">
+			<view class="contain">
+				<text class="_p">您的账户尚未绑定手机号</text>
+				<text class="_p">需绑定后再进行其他操作</text>
+				<button
+					class="btn"
+					lang="zh_CN"
+					open-type="getPhoneNumber"
+					@getphonenumber="getPhoneNumber"
+				>
+					微信授权绑定
+				</button>
+			</view>
+		</view>
 	</view>
 </template>
 
@@ -76,9 +121,10 @@
 export default {
 	data() {
 		return {
+			getphoneshow: false, //获取手机号弹窗
 			userdata: {
 				nickName: "",
-				vip: 0,
+				vip: 1,
 			},
 		};
 	},

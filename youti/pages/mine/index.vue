@@ -1,5 +1,5 @@
 <template>
-	<view class="bgf7">
+	<view class="bgf7 autopb">
 		<view class="header-box clearfix">
 			<view class="img-box">
 				<image :src="userdata.avatarUrl"></image>
@@ -27,7 +27,7 @@
 			</view>
 			<view class="vip-p">普通会员</view>
 		</view>
-		<navigator class="vip-box" url="../vip/index">
+		<navigator class="vip-box" url="../vip/index" hover-class="none">
 			<view v-if="userdata.vip" class="clearfix">
 				<view class="vip-l">
 					<i class="iconfont">&#xe7c8;</i>
@@ -62,10 +62,11 @@
 			<text class="_h4">健康服务</text>
 			<view class="menu-ul">
 				<navigator
-					url=""
+					:url="item.url"
 					class="_li"
 					v-for="(item, index) in menulist"
 					:key="index"
+					hover-class="none"
 				>
 					<view class="icon-box">
 						<view
@@ -127,11 +128,11 @@ export default {
 				vip: 0,
 			},
 			menulist: [
-				{ title: "家庭成员", bg: "#A28DE7", color: "#69B1E9", icon: "\ue731" },
-				{ title: "健康记录", bg: "#45B780", color: "#45B780", icon: "\ue732" },
-				{ title: "健康预约", bg: "#7197E7", color: "#6993E9", icon: "\ue72e" },
-				{ title: "健康指导", bg: "#EF8182", color: "#9669E9", icon: "\ue730" },
-				{ title: "地址管理", bg: "#EF9976", color: "#E97269", icon: "\ue768" },
+				{ title: "家庭成员", bg: "#A28DE7", color: "#69B1E9", icon: "\ue731",url:'../family/index' },
+				{ title: "健康记录", bg: "#45B780", color: "#45B780", icon: "\ue732",url:'../vip/index' },
+				{ title: "健康预约", bg: "#7197E7", color: "#6993E9", icon: "\ue72e",url:'../vip/index' },
+				{ title: "健康指导", bg: "#EF8182", color: "#9669E9", icon: "\ue730",url:'../vip/index' },
+				{ title: "地址管理", bg: "#EF9976", color: "#E97269", icon: "\ue768",url:'../vip/index' },
 			], //金刚区列表
 			orderlist: [
 				{ title: "待支付", icon: "\ue897" },

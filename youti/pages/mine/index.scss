@@ -67,7 +67,7 @@
     border-radius: 20upx 20upx 0 0;
     margin: 0 auto;
     padding: 30upx 50upx 20upx;
-
+    width: calc(100% - 140upx);
     ._p {
         display: block;
         font-size: 20upx;
@@ -290,4 +290,8 @@
     .btn::after {
         border: none;
     }
+}
+
+.avatar-box {
+    margin-bottom: 100upx;
 }

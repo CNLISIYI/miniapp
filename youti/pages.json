@@ -2,7 +2,7 @@
 	"easycom": {
 		"^u-(.*)": "@/uni_modules/uview-ui/components/u-$1/u-$1.vue"
 	},
-	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	"pages": [ 
 		{
 			"path": "pages/index/index",
 			"style": {
@@ -54,6 +54,18 @@
 				"navigationBarTitleText": "会员中心",
 				"navigationBarTextStyle": "white",
 				"navigationBarBackgroundColor": "#283A62"
+			}
+		},
+		{
+			"path": "pages/family/index",
+			"style": {
+				"navigationBarTitleText": "家庭成员"
+			}
+		},
+		{
+			"path": "pages/familyinfo/index",
+			"style": {
+				"navigationBarTitleText": "家庭成员"
 			}
 		}
 	],

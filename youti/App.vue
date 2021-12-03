@@ -5,7 +5,7 @@ export default {
 		// token: "Rj1/cheqhpRSNqWMdQU2ClcSmXWaBQQmVQO3jHAB5rMU2gkDHju1h4AF3GmaDtyY",
 		token: "",
 		session_key: "",
-			phone: '15353388485',
+		phone: '15353388485',
 	},
 	onLaunch: function () {
 		// 检查小程序版本更新
